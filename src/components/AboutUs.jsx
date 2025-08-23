@@ -50,10 +50,10 @@ const AboutUs = () => {
           <h3 className="text-2xl font-bold mb-4 text-gradient bg-gradient-to-r from-green-400 to-teal-600">
             Business Profile
           </h3>
-          <p className="text-base leading-relaxed">
-            <span className="font-semibold">M/s. DEEPTHI LABELS</span> is a label manufacturing company based out of
+          <p className="text-lg leading-relaxed">
+            <span className="font-semibold text-blue-400">DEEPTHI LABELS</span> <span className="text-white-900">is a label manufacturing company based out of
             Hyderabad, serving multiple industries across India. We supply all types of self-adhesive labels,
-            including specialty labels tailored for diverse end-user applications.
+            including specialty labels tailored for diverse end-user applications.</span>
           </p>
         </motion.div>
 
@@ -67,12 +67,12 @@ const AboutUs = () => {
           <h3 className="text-2xl font-bold mb-4 text-gradient bg-gradient-to-r from-green-400 to-teal-600">
             Our Mission & Values
           </h3>
-          <p className="text-base leading-relaxed mb-4">
+          <p className="text-lg leading-relaxed mb-4">
             Our mission is to be the <span className="font-semibold">premier choice</span> for labeling solutions by offering
             exceptional products, outstanding customer service, and innovative solutions.
           </p>
           <motion.ul
-            className="list-disc list-inside space-y-2 text-base"
+            className="list-disc list-inside space-y-2 text-lg"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
