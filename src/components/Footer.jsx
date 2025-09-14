@@ -2,7 +2,7 @@ import React from 'react';
 import { socialMedia } from '../constants'; // Array with {name, icon, link}
 
 const Footer = () => (
-  <footer className="w-full border-t border-gray-200 py-10 bg-black">
+  <footer className="w-full border-t border-gray-200 py-10">
     <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-start px-4">
       {/* Left: Business Details */}
       <div className="md:w-1/2 mb-8 md:mb-0">
