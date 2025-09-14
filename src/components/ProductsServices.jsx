@@ -43,7 +43,7 @@ const ProductsServices = () => {
   };
 
   return (
-    <section className="py-10 px-6 min-h-screen">
+    <section id="services" className="py-10 px-6 min-h-screen">
       <motion.h2
         className="text-3xl font-extrabold mt-19 mb-4 text-center leading-relaxed text-gradient bg-gradient-to-r from-green-400 to-teal-600"
         initial={{ opacity: 0, y: 20 }}
