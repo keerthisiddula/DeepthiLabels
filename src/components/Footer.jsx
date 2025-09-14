@@ -2,7 +2,7 @@ import React from 'react';
 import { socialMedia } from '../constants'; // Array with {name, icon, link}
 
 const Footer = () => (
-  <footer className="w-full border-t border-gray-200 py-10">
+  <footer className="w-full border-t border-gray-200 py-10 bg-black">
     <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-start px-4">
       {/* Left: Business Details */}
       <div className="md:w-1/2 mb-8 md:mb-0">
@@ -29,26 +29,30 @@ const Footer = () => (
       </div>
       {/* Right: Navigation Links */}
       <div className="md:w-1/2 flex flex-col items-start md:items-end">
-        
-
         <nav>
-  <ul className="flex flex-col md:flex-row gap-4 text-sm font-medium">
-    <li>
-      <a href="#home" className="text-gray-700 hover:text-blue-500">Home</a>
-    </li>
-    <li>
-      <a href="#aboutus" className="text-gray-700 hover:text-blue-500">About Us</a>
-    </li>
-    <li>
-      <a href="#services" className="text-gray-700 hover:text-blue-500">Services</a>
-    </li>
-    <li>
-      <a href="#contactus" className="text-gray-700 hover:text-blue-500">Contact Us</a>
-    </li>
-  </ul>
-</nav>
-
-
+          <ul className="flex flex-col md:flex-row gap-4 text-sm font-medium">
+            <li>
+              <a href="#home" className="text-gray-700 hover:text-blue-500 py-2 block">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#aboutus" className="text-gray-700 hover:text-blue-500 py-2 block">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="#services" className="text-gray-700 hover:text-blue-500 py-2 block">
+                Services
+              </a>
+            </li>
+            <li>
+              <a href="#contactus" className="text-gray-700 hover:text-blue-500 py-2 block">
+                Contact Us
+              </a>
+            </li>
+          </ul>
+        </nav>
         <div className="text-xs text-gray-400 mt-6">
           &copy; 2014 Deepthi Labels. All rights reserved.
         </div>
